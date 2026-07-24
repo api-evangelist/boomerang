@@ -1,7 +1,14 @@
 aid: boomerang
 name: Boomerang
-description: Boomerang is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Boomerang, from Baydin Inc, is a productivity software company founded in 2010 that builds
+  email management and meeting scheduling tools. Its products include Boomerang for Gmail and Boomerang
+  for Outlook browser extensions, Boomerang mobile apps for iOS and Android, and GQueues, a task manager
+  for Google Workspace teams. Boomerang lets users schedule email to send later, snooze messages back to
+  the inbox, track responses with read receipts and follow-up reminders, share availability and book
+  meetings without back-and-forth, and use AI writing assistance. With over 2 million active customers,
+  the platform has processed more than 500 million messages. Boomerang is a consumer and team-facing
+  productivity suite delivered as browser extensions and apps rather than a developer API platform; it
+  was surfaced as a portfolio company of 500 Global and added to the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/boomerang/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +16,30 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.boomerangapp.com/assets/images/og-banner.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Productivity
+- Email
+- Scheduling
+- Meetings
+- Task Management
+- Gmail
+- Outlook
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +47,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/boomerang-domain-security.yml
 - type: Website
   url: https://boomerangapp.com
+- type: Blog
+  url: https://blog.boomerangapp.com/
+- type: HelpCenter
+  url: https://help.boomeranggmail.com
+- type: Pricing
+  url: https://www.boomeranggmail.com/subscriptions.html
+- type: TermsOfService
+  url: https://www.boomeranggmail.com/terms.html
+- type: PrivacyPolicy
+  url: https://www.boomeranggmail.com/privacy.html
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
